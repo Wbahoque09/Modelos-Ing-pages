@@ -1,13 +1,3 @@
-:root {
-    --white: #FFFFFF;
-    --black: #000000;
-    --very-light-pink: #C7C7C7;
-    --text-input-field: #F7F7F7;
-    --hospital-green: #ACD9B2;
-    --sm: 14px;
-    --md: 16px;
-    --lg: 18px;
-  }
   body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
@@ -46,4 +36,23 @@
     border: 1px solid var(--white);
     padding: 8px;
     border-radius: 8px;
+  }
+  p{
+    padding-right: 3%;
+  }
+  section .cuadro{
+    width: 500px;
+    height: 500px;
+    background-color: papayawhip;
+    border: 1px solid black;
+    position: initial;
+    display: inline-flex;
+    align-items: center;
+    bottom: 50px;
+    right: 200px;
+  }
+  footer #Pie{
+   text-align: center;
+    opacity: 0.7;
+    font-size: x-small;
   }
