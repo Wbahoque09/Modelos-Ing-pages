@@ -1,78 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Termodinámica</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>Termodinámica</title>
 </head>
+
 <body>
-    <nav>
-        <img src="./icons/icon_menu.svg" alt="menu" class="menu">
-    
-        <div class="navbar-left">
-          <img src="./logos/46303.png" alt="logo" class="logo">
-    
-          <ul>
-            <li>
-              <a href="/">All</a>
-            </li>
-            <li>
-              <a href="/">Topics</a>
-            </li>
-            <li>
-              <a href="/">Img</a>
-            </li>
-            <li>
-              <a href="/">Help</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
+  <nav class="navbar bg-ligth">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./logos/46303.png" alt="logo" alt="Logo" width="30" height="27" class="d-inline-block align-text-top">
+        Proyecto de Termodinamica
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <section class="main-container">
-        <div>
-            <h1>Termodinámica</h1>
-        </div>
-        <div>
-            <p>Se llama termodinámica (del griego thermós, “calor” y dynamos, “poder, fuerza”) 
-            a la rama de la física que estudia las acciones mecánicas del calor y de otras formas 
-            semejantes de energía. Su estudio aborda los objetos como sistemas macroscópicos reales,
-            mediante el método científico y razonamientos deductivos, prestando atención a variables 
-            extensivas como la entropía, la energía interna o el volumen; así como a variables 
-            no extensivas como la temperatura, la presión o el potencial químico, entre otros 
-            tipos de magnitudes.
-            </p>
-        </div>
-        <div>
-          <h3>Sistema termodinámico</h3>
-          <p>
-            El criterio principal de clasificación de estos sistemas se basa en su grado de aislamiento del entorno, distinguiendo así entre:
-          </p>
-          <p>
-            Sistemas abiertos. Aquellos que intercambian libremente energía y materia con su entorno, como hacen la mayoría de los sistemas conocidos en la cotidianidad. Por ejemplo: un auto. Uno le entrega combustible y éste devuelve al ambiente gases y calor.
-          </p>
-          <p>
-            Sistemas cerrados. Aquellos que intercambian energía con su entorno, pero no materia. Es lo que ocurre con un envase cerrado, como una lata, cuyo contenido es invariable, pero pierde calor con el tiempo, disipándolo en el aire alrededor.
-          </p>
-          <p>
-            Sistemas aislados. Aquellos que, hasta cierto punto, no intercambian energía ni materia con el entorno. No existen los sistemas perfectamente aislados, claro está, pero sí hasta cierto grado: un termo que contiene agua caliente preservará su temperatura durante un rato, lo suficiente como para conservarse aislado durante un rato.
-          </p>            
-        </div>
-        <div>
-          <section class="cuadro">
-            ESTE ES EL ESPACIO PARA LA SIMULACION...
-          </section>
-        </div>
-        <footer>
-          <p id="Pie">
-            Copyright © 2022 Modelo de Ingenieria | William Bahoque Patiño | Ramiro Garcia Urueta | Ronald Barraza Montes | Todos los derechos reservados.
-          </p> 
-        </footer>
+  <section class="container">
+    <div>
+      <h1>Termodinámica</h1>
+    </div>
+    <div>
+      <p>Se llama termodinámica (del griego thermós, “calor” y dynamos, “poder, fuerza”)
+        a la rama de la física que estudia las acciones mecánicas del calor y de otras formas
+        semejantes de energía. Su estudio aborda los objetos como sistemas macroscópicos reales,
+        mediante el método científico y razonamientos deductivos, prestando atención a variables
+        extensivas como la entropía, la energía interna o el volumen; así como a variables
+        no extensivas como la temperatura, la presión o el potencial químico, entre otros
+        tipos de magnitudes.
+      </p>
+    </div>
+    <div>
+      <h3>Sistema termodinámico</h3>
+      <p>
+        El criterio principal de clasificación de estos sistemas se basa en su grado de aislamiento del entorno,
+        distinguiendo así entre:
+      </p>
+      <p>
+        Sistemas abiertos. Aquellos que intercambian libremente energía y materia con su entorno, como hacen la mayoría
+        de los sistemas conocidos en la cotidianidad. Por ejemplo: un auto. Uno le entrega combustible y éste devuelve
+        al ambiente gases y calor.
+      </p>
+      <p>
+        Sistemas cerrados. Aquellos que intercambian energía con su entorno, pero no materia. Es lo que ocurre con un
+        envase cerrado, como una lata, cuyo contenido es invariable, pero pierde calor con el tiempo, disipándolo en el
+        aire alrededor.
+      </p>
+      <p>
+        Sistemas aislados. Aquellos que, hasta cierto punto, no intercambian energía ni materia con el entorno. No
+        existen los sistemas perfectamente aislados, claro está, pero sí hasta cierto grado: un termo que contiene agua
+        caliente preservará su temperatura durante un rato, lo suficiente como para conservarse aislado durante un rato.
+      </p>
+    </div>
+    <div>
+      <h3>Ley cero</h3>
+    </div>
+    <div>
+      <p>Llamada también ley de equilibrio térmico o a veces ley de igualación de temperaturas. Entre las leyes de la
+        termodinámica, esta fue la última en consolidarse. Fue propuesta en 1930 por Guggenheim y Fowler.
+      </p>
+      <p>
+        Si tenemos un objeto <strong>A</strong> en equilibrio térmico con un objeto <strong>B</strong>, y este último
+        también está en equilibrio con otro objeto <strong>C</strong>, entonces <strong>A</strong> y <strong>C</strong>
+        también estarán en equilibrio térmico. Es decir: si
+        <strong>A</strong> = <strong>B</strong> y <strong>B</strong> = <strong>C</strong>, entonces se tiene que
+        <strong>A</strong> = <strong>C</strong> .
+      </p>
+    </div>
+    <div>
+      <h3>Primera ley</h3>
+    </div>
+    <div>
+      <p>SLa primera ley de la termodinámica describe la relación entre el intercambio de calor, energía interna y
+        trabajo de un sistema termodinámico. Es una extensión del principio de conservación de energía. Fue propuesta en
+        1860 por Rudolf Clausius y William Thompson (Lord Kelvin) con base en los trabajos de Sadi Carnot.
+      </p>
+      <p>El cambio de la energía interna de un sistema cerrado es igual al calor suministrado al sistema menos el
+        trabajo hecho por el sistema.</p>
+      <p>En todo proceso termodinámico, la cantidad de calor (Q) que el sistema recibe o pierde es utilizado por el
+        sistema para realizar trabajo externo (W) y el resto es absorbida por el sistema para aumentar o disminuir su
+        energía interna (U).</p>
+    </div>
+    <div>
+      <h3>Segunda ley</h3>
+    </div>
+    <div>
+      <p>Esta es quizás la más famosa de las cuatro leyes de la termodinámica. Establece límites en la transformación o
+        uso de la energía y la dirección en que los procesos termodinámicos pueden ocurrir. Fue propuesta por Nicolás
+        Léonard Sadi Carnot en 1824 (esta ley fue considerada anteriormente como la primera).
+      </p>
+      <p>Es imposible que un sistema termodinámico efectúe un proceso en el que absorba todo el calor de una fuente
+        caliente y lo convierta totalmente (100%) en trabajo mecánico, sin expulsar calor al exterior y que termine en
+        el mismo estado en que inició.</p>
+      <p>En otras palabras, no hay manera que podamos construir un motor o dispositivo que convierta toda la energía
+        calorífica en trabajo mecánico (no podemos obtener un 100% de eficiencia, siempre habrá pérdida de energía).</p>
+    </div>
+    <div>
+      <h3>Tercera ley</h3>
+    </div>
+    <div>
+      <p>El cero absoluto (0 K, igual a -273,15 °C) es la menor temperatura, que en teoría la materia podría existir.
+        Experimentalmente, es imposible llegar a esta medida, así como también, es imposible construir una máquina que
+        sea de movimiento perpetuo.
+      </p>
+      <p>Si pudiéramos hacer que un objeto llegara al cero absoluto sus átomos se detendrían (según la física clásica),
+        pero según la mecánica cuántica, siempre se requiere un tipo de movimiento para no violar el principio de
+        incertidumbre de Heisenberg.</p>
+      <p>Al aproximarse al cero absoluto, se producen fenómenos interesantes en la materia como por ejemplo:</p>
+      <ul>
+        <li><strong>SuperFuides</strong>: <p>elementos como el helio (He) se transforman en un líquido casi sin
+            viscosidad.</p>
+        </li>
+        <li><strong>Superconductividad</strong>: <p>a electricidad se conduce casi que sin resistencia. Mucho mejor que
+            en el cobre (Cu) o el oro (Au).</li>
+      </ul>
+    </div>
+    <div>
+      <div style="margin-top: 10px; margin-bottom: 15px;">
+        <section class="cuadro">
+          <div id="app" class="container" style="height: 100px; margin-top: 20px;">
+            <div class="row align-items-start">
+              <div class="col" style=" padding-left: 0; padding-right: 0;">
+                <div class="caja caja1">
+                  <p> Recipiente 1</p>
+                  <p id="caja3Temperatura">{{object1}} °C</p>
+                </div>
+              </div>
+              <div class="col" style=" padding-left: 0; padding-right: 0;">
+                <div class="caja caja2">
+                  <p>Recipiente 2</p>
+                  <p id="caja2Temperatura">{{object2}} °C</p>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-start">
+              <div class="col">
+                <div class="base">
+                  <p>base</p>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-start" style="margin-top: 10px;">
+              <div class="col" style="margin-right: 15px;">
+                <div class="mb-3 row">
+                  <label for="objeto1" class="form-label">Temperatura Recipiente 1</label>
+                  <input type="number" class="form-control" id="objeto1" min="10" v-model="object1"
+                    :disabled="reloadEnabled === true" />
+                </div>
+                <div class="mb-3 row">
+                  <label for="agua1" class="form-label">Volumen Agua ml 1</label>
+                  <input type="number" class="form-control" id="agua1" min="10" v-model="water1"
+                    :disabled="reloadEnabled === true" />
+                </div>
+              </div>
+              <div class="col" style="margin-left: 15px;">
+                <div class="mb-3 row">
+                  <label for="objeto2" class="form-label">Recipiente 2</label>
+                  <input type="number" class="form-control" id="objeto2" min="10" v-model="object2"
+                    :disabled="reloadEnabled === true" />
+                </div>
+                <div class="mb-3 row">
+                  <label for="agua2" class="form-label">Volumen Agua ml 2</label>
+                  <input type="number" class="form-control" id="agua2" min="10" v-model="water2"
+                    :disabled="reloadEnabled === true" />
+                </div>
+              </div>
+            </div>
+            <div class="row  text-center">
+              <div class="col align-self-center" v-if="reloadEnabled === true">
+                <button @click="reiniciar" class="btn btn-danger">Reiniciar</button>
+              </div>
+              <div class="col align-self-center" v-else>
+                <button @click="calcularEquilibrioTermico" class="btn btn-primary">Iniciar</button>
+              </div>
+            </div>
+          </div>
+        </section>
 
-    </section>
+        <div class="row  text-center">
+          <div class="col align-self-center">
+            <section class="cuadro">
+              <iframe
+                src="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_es.html"
+                frameborder="50" height="520" width="570" mar>
+              </iframe>
+            </section>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p id="Pie">
+          Copyright © 2022 Modelo de Ingenieria | William Bahoque Patiño | Ramiro Garcia Urueta | Ronald Barraza Montes
+          | Todos los derechos reservados.
+        </p>
+      </footer>
 
-    <script src="./main.js"></script>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="./main.js"></script>
 </body>
+
 </html>
